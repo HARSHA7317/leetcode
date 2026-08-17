@@ -10,7 +10,7 @@ class Solution:
                 j+=1
         for k in range(j,len(nums)):
             nums[k]=0
-        return nums
+        
             
         
 
