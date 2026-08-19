@@ -9,7 +9,7 @@ class Solution:
         d2 = {}
         for i in range(len(s)):
             d2[s[i]] = d2.get(s[i],0) + 1
-            if i >= k -1:
+            if i >= k -1:   # checking the validity window
                 if d1 == d2:
                     ans.append(left)
                 d2[s[left]] -= 1
